@@ -1,17 +1,237 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!-- All Components, JavaScript and CSS on http://getbootstrap.com/
+(DELETE THIS COMMENT WHEN DONE)
+================================================== -->
 
-# Custom for Visual Studio
-*.cs     diff=csharp
+<!-- Campbell Basic template 
+================================================== -->
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title
+    ================================================== -->
+    <title>Luxury Rentals</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- Custom theme goes under bootstrap theme -->
+    <link rel="stylesheet" type="text/css" href="theme.css">
+  </head>
+
+  <body>
+
+  <!-- NAVBAR
+  ================================================== -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">AFFINITY Luxury Rentals</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Conditions</a></li>
+          </ul>
+          </li>
+
+
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Showroom <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">The Fleet</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Luxury</a></li>
+            <li><a href="#">Exotics</a></li>
+            <li><a href="#">SUV / Van</a></li>
+            <li><a href="#">Specialty</a></li>
+            <li><a href="#">Compacts</a></li>
+            <li><a href="#">Midsize</a></li>
+            <li><a href="#">Fullsize</a></li>
+          </ul>
+          </li>
+
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Reservation <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Questions</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Online</a></li>
+            <li><a href="#">Phone</a></li>
+          </ul>
+          </li>
+
+
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Our Services <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Cars for Sale</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Promotions</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Gift Certificates</a></li>
+          </ul>
+          </li>
+
+
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact Us <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Contact us</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Locations</a></li>
+          </ul>
+          </li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- jumbotron
+  ================================================== -->
+  <div class="jumbotron">
+    <div class="container">
+      <h2>AFFINITY<br><small>Welcome to Affinity Luxury Car Rental, one of the largest independent luxury car rental companies serving the Greater Toronto Area.</small></h2>
+    </div><!-- end of container -->
+  </div>
+
+  <!-- three thumbnails
+  ================================================== -->
+  <div class="container">
+
+  <div class="row">
+    <div class="page-header">
+     <h2>Toronto Luxury Exotic Car Rental Company</h2>
+    </div>
+  </div><!-- end of row -->
+
+  <div class="row">
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula sit amet nibh et tincidunt. Nulla hendrerit aliquet consectetur.</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula sit amet nibh et tincidunt. Nulla hendrerit aliquet consectetur.</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula sit amet nibh et tincidunt. Nulla hendrerit aliquet consectetur.</h4>
+      </div>
+    </div>
+  </div>  
+
+  </div> <!-- end of row -->
+
+
+ <!-- three thumbnails
+  ================================================== -->
+  <div class="container">
+
+  <div class="row">
+    <div class="page-header">
+     <h2>Live Feed</h2>
+    </div>
+  </div><!-- end of row -->
+
+  <div class="row">
+
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>facebook/twitter</h3>
+        <h4>Large selection of luxury and exotic automobiles available throughout Toronto</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>Promotions</h3>
+        <h4>Large selection of luxury and exotic automobiles available throughout Toronto</h4>
+      </div>
+    </div>
+  </div>
+
+  </div> <!-- end of row -->  
+
+
+  <!-- Footer and Contact
+  ================================================== -->
+    <footer>
+      <div id="Contact" Class="row">
+        <h3>footer information</h3>
+      </div>
+    </footer>
+
+  </div><!-- end of container -->
+
+  <!-- Java
+  ================================================== -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom Java
+  ================================================== -->
+  <script type="text/javascript">
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+
+  <script src="/prepros.js"></script>
+</body>
+</html>
